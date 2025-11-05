@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Elson Gorica — personal portfolio website." />
+  <title>Home — Elson Gorica</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Home">
+      <span class="brand-mark" aria-hidden="true">▣</span>
+      <span class="brand-name">Elson Gorica</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span class="hamburger" aria-hidden="true"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="site-main" role="main">
+
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <h1>Hey, I’m <span class="accent">Elson Gorica</span>.</h1>
+      <p class="lead">Software engineering student (NJIT, Fall 2025) + agency owner at SkyRise Consulting. I build fast, accessible web products and lead‑gen systems for contractors.</p>
+      <div class="cta-row">
+        <a class="btn" href="projects.html">View Projects</a>
+        <a class="btn-outline" href="contact.html">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="assets/img/hero.svg" alt="Abstract hero banner with name" width="600" height="250" />
+    </div>
+  </div>
+</section>
+
+<section class="highlights">
+  <div class="container grid-3">
+    <article class="card">
+      <h2>Full‑Stack Marketing</h2>
+      <p>Funnels, pixels/CAPI, GHL automations, Meta Ads. Built to convert.</p>
+    </article>
+    <article class="card">
+      <h2>Projects</h2>
+      <p>Case‑study style breakdowns with stack, decisions, and outcomes.</p>
+    </article>
+    <article class="card">
+      <h2>Deployment</h2>
+      <p>GitHub + Vercel. Preview & production URLs by default.</p>
+    </article>
+  </div>
+</section>
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Elson Gorica. All rights reserved.</p>
+    <p><a href="https://github.com/elsongorica" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/elson-gorica" rel="noopener">LinkedIn</a> · <a href="mailto:elson@skyrise.consulting">Email</a></p>
+  </div>
+</footer>
+</body>
+</html>
